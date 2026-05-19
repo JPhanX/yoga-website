@@ -689,13 +689,16 @@ background: #efeae3;
   background: none;
   border: none;
   cursor: pointer;
+  color: #000;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media (max-width: 768px) {
-
   .burger {
     display: block;
   }
+
+   
 
   .nav {
     position: absolute;
